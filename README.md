@@ -88,15 +88,6 @@ Performed analysis to understand churn patterns:
 
 ---
 
-## 🧠 Explainability (SHAP)
-
-Used SHAP values to explain model predictions:
-
-* Shows feature impact on individual predictions
-* Improves model transparency
-* Helps in business decision-making
-
----
 
 ## 💻 Web App (Streamlit)
 
