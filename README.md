@@ -62,7 +62,7 @@ Evaluated using:
 
 ---
 
-## 💻 Web App (Streamlit)
+## 💻 Web App (Streamlit) (https://customer-churn-ml-a8xvkhqtdkksuaprn8v4i5.streamlit.app)
 
 Built an interactive web app where users can:
 
