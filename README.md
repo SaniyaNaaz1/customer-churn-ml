@@ -1,100 +1,148 @@
-# 📊 Customer Churn Prediction System
+## 🚀 Project Overview
 
-## 🚀 Problem Statement
-Customer churn is a major problem for subscription-based businesses. Losing customers directly impacts revenue.  
-This project aims to predict whether a customer will churn based on their behavior and usage patterns.
+An end-to-end Machine Learning project that predicts customer churn using behavioral and transactional data, helping businesses take proactive retention actions.
+
+---
+
+## 🎯 Problem Statement
+
+Customer churn is a major challenge for subscription-based businesses, leading to revenue loss.
+This project predicts whether a customer is likely to churn, enabling companies to take preventive measures.
+
+---
+
+## 💡 Business Impact
+
+* Identify high-risk customers early
+* Reduce customer loss through targeted retention strategies
+* Improve customer lifetime value (CLV)
+* Support data-driven decision making
 
 ---
 
 ## 📁 Dataset
-The dataset contains customer information such as:
 
-- Age  
-- Gender  
-- Tenure  
-- Usage Frequency  
-- Support Calls  
-- Payment Delay  
-- Subscription Type  
-- Contract Length  
-- Total Spend  
-- Last Interaction  
-- Churn (Target Variable)
+The dataset includes the following features:
+
+* Age
+* Gender
+* Tenure
+* Usage Frequency
+* Support Calls
+* Payment Delay
+* Subscription Type
+* Contract Length
+* Total Spend
+* Last Interaction
+* Churn (Target Variable)
 
 ---
 
 ## 🔍 Exploratory Data Analysis (EDA)
 
-Performed detailed analysis to understand customer behavior:
+Performed analysis to understand churn patterns:
 
-- Churn distribution analysis  
-- Feature relationships with churn  
-- Correlation heatmap  
-- Feature importance analysis  
+* Churn distribution
+* Feature relationships
+* Correlation heatmap
+* Feature importance
 
 ### 📊 Key Insights:
 
-- Customers with **low tenure** are more likely to churn  
-- High number of **support calls** indicates dissatisfaction  
-- **Subscription type** significantly affects churn  
-- Customers with higher **total spend** are more loyal  
+* Low tenure customers are more likely to churn
+* High support calls indicate dissatisfaction
+* Subscription type impacts churn significantly
+* Higher total spend → lower churn probability
 
 ---
 
-## 🤖 Machine Learning Models Used
+## 🤖 Machine Learning Models
 
-- Logistic Regression  
-- Random Forest (Best Model)  
-- XGBoost  
-
----
-
-## 📈 Model Evaluation
-
-Evaluated using:
-
-- Accuracy  
-- Precision  
-- Recall  
-- F1 Score  
-
-👉 Random Forest performed best with balanced performance.
+* Logistic Regression
+* Random Forest ✅ (Best Model)
+* XGBoost
 
 ---
 
-## 💻 Web App (Streamlit) (https://customer-churn-ml-a8xvkhqtdkksuaprn8v4i5.streamlit.app)
+## 📈 Model Performance
 
-Built an interactive web app where users can:
+| Metric    | Score |
+| --------- | ----- |
+| Accuracy  | XX%   |
+| Precision | XX%   |
+| Recall    | XX%   |
+| F1 Score  | XX%   |
 
-- Enter customer details  
-- Predict churn probability  
-- Get business insights  
+👉 Random Forest selected as final model due to best balance of metrics.
+
+---
+
+## ⚙️ How It Works
+
+1. Data preprocessing (cleaning + encoding)
+2. Feature engineering
+3. Model training
+4. Model evaluation
+5. Prediction via Streamlit UI
+6. Explainability using SHAP
+
+---
+
+## 🧠 Explainability (SHAP)
+
+Used SHAP values to explain model predictions:
+
+* Shows feature impact on individual predictions
+* Improves model transparency
+* Helps in business decision-making
+
+---
+
+## 💻 Web App (Streamlit)
+
+Features:
+
+* Input customer details
+* Predict churn probability
+* Show business insights
+* Display feature importance
+
+---
+
+## 🌍 Live Demo
+
+👉 [https://customer-churn-ml-a8xvkhqtdkksuaprn8v4i5.streamlit.app]
 
 ---
 
 ## 📸 Screenshots
 
 ### 🔹 App Interface
-!(assets/app.png)
+
+![App](assets/app.png)
 
 ### 🔹 Prediction Result
-!(assets/result.png)
 
-### 🔹 EDA Visualization
-!(assets/feature_importance.png)
+![Result](assets/result.png)
+
+### 🔹 Feature Importance
+
+![Feature Importance](assets/feature_importance.png)
 
 ---
 
 ## ⚙️ Tech Stack
 
-- Python  
-- Pandas, NumPy  
-- Scikit-learn  
-- XGBoost  
-- Matplotlib, Seaborn  
-- Streamlit  
+* Python
+* Pandas, NumPy
+* Scikit-learn
+* XGBoost
+* Matplotlib, Seaborn
+* Streamlit
+* SHAP
 
 ---
+
 
 ## ▶️ How to Run Locally
 
