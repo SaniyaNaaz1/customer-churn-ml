@@ -75,13 +75,13 @@ Built an interactive web app where users can:
 ## 📸 Screenshots
 
 ### 🔹 App Interface
-![App UI](assets/app.png)
+!(assets/app.png)
 
 ### 🔹 Prediction Result
-![Prediction](assets/result.png)
+!(assets/result.png)
 
 ### 🔹 EDA Visualization
-![EDA](assets/feature_importance.png)
+!(assets/feature_importance.png)
 
 ---
 
